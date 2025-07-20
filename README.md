@@ -1,5 +1,6 @@
 # C++ Johansen's Cointegration test
-You can find the ```johansen_test.cpp``` and ```johansen_test.hpp``` files in the root of the project which you can just drag and drop into your project which uses Eigen.
+You can find the ```johansen_test.cpp``` and ```johansen_test.hpp``` files in the root of the project which you can just drag and drop into your project which uses Eigen. All other files are added for you to make sure that my implementation is correct and has somewhat decent performance.
+
 # Compiling
 In order to compile this project create a build directory ```build/``` directory and inside of it run
 ```
