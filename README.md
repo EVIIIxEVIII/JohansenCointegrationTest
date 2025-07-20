@@ -36,3 +36,5 @@ The following implementation supports 3 types of det. trend assumptions:
 
 # Source of Critical Values
 The critical values have been taken directly from the statsmodel repo, specifically from this [file](https://github.com/statsmodels/statsmodels/blob/main/statsmodels/tsa/coint_tables.py).
+
+# Performance
