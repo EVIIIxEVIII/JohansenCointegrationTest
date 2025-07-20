@@ -52,7 +52,7 @@ Input data:
 ---------------------------------
 data/BTC_USD.csv: 62759 prices
 data/ETH_USD.csv: 62759 prices
-Number of lags: 1
+Number of lags: 2
 Det order: -1
 
 
@@ -60,10 +60,10 @@ Det order: -1
 Profiler results: 
 ---------------------------------
 
- Total time: 4ms (CPU freq 2687987388)
-   solveGenerEigenvalProb[1]: 23308 (0.008671ms) (0.21%)
-   buildCovarianceMatrices[1]: 1381936 (0.514116ms) (12.49%)
-   regress[1]: 5671872 (2.110081ms) (51.25%)
-   buildRegressionMatrices[1]: 3177128 (1.181973ms) (28.71%)
+ Total time: 4ms (CPU freq 2687988458)
+   solveGenerEigenvalProb[1]: 24300 (0.009040ms) (0.22%)
+   buildCovarianceMatrices[1]: 1471846 (0.547564ms) (13.33%)
+   regress[1]: 5632468 (2.095421ms) (51.03%)
+   buildRegressionMatrices[1]: 3071442 (1.142654ms) (27.82%)
 ```
 **Note:** when you run the program you might notice a slight halt which takes more than 4ms. This halt is caused by the profiler which sleeps for 1 second in order to estimate the time step counter frequency in order to be able to conver `rdtsc` ticks into actual time.
