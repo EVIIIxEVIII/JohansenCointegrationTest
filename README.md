@@ -24,7 +24,7 @@ Example:
 ./build/johansen_test --files=data/BTC_USD.csv,data/ETH_USD.csv --detOrder=-1 --lags=1
 ```
 ```bash
-python test/test_johansen.py --files=data/BTC_USD.csv,data/ETH_USD.csv --detOrder=1 --lags=1
+python test/test_johansen.py --files=data/BTC_USD.csv,data/ETH_USD.csv --detOrder=-1 --lags=1
 ```
 
 
