@@ -1,4 +1,4 @@
-# C++ Johansen test implementation
+# C++ Johansen's Cointegration test
 
 # Compiling
 In order to compile this project create a build directory ```build/``` directory and inside of it run
