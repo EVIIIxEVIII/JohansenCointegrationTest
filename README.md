@@ -19,6 +19,13 @@ The executable has 3 parameters:
 - `--lags=` is an integer which specifies the number of lags the test should include
 - `--detOrder=` which is an integer used to specify the deterministic trend assumption
 
+Example:
+```bash
+./build/johansen_test --files=data/BTC_USD.csv,data/ETH_USD.csv --detOrder=-1 --lags=1
+```
+```bash
+python test/test_johansen.py --files=data/BTC_USD.csv,data/ETH_USD.csv --detOrder=1 --lags=1
+```
 
 
 The absolutely same parameters are used in the `test/test_johansen.py` file which you can use to make sure that the results of my implementation are the same as in the reference **statsmodel** library.
@@ -38,7 +45,7 @@ The following implementation supports 3 types of det. trend assumptions:
 The critical values have been taken directly from the statsmodel repo, specifically from this [file](https://github.com/statsmodels/statsmodels/blob/main/statsmodels/tsa/coint_tables.py).
 
 # Performance
-On my i7-12700h these are the results: 
+On my i7-12700h these are the results in Relase mode: 
 ```
 ---------------------------------
 Input data: 
