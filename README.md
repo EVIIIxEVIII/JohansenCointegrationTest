@@ -16,3 +16,8 @@ The executable has 3 parameters:
 - ```--lags=``` is an integer which specifies the number of lags the test should include
 - ```--detOrder=``` which is an integer used to specify the deterministic trend assumption
 
+
+
+The absolutely same parameters are used in the ```test/test_johansen.py``` file which you can use to make sure that the results of my implementation are the same as in the reference **statsmodel** library.
+
+**Importat:** the program expects the data in CSV format and the column which the test will be performed must be called **data**!
